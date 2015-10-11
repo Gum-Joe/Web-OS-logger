@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Gum-Joe/Web-OS-logger/issues"
   },
-  "homepage": "https://github.com/Gum-Joe/Web-OS-logger#readme"
+  "homepage": "https://github.com/Gum-Joe/Web-OS-logger#readme",
+  "dependencies": {
+    "python-shell": "^0.2.0"
+  }
 }
