@@ -3,13 +3,12 @@ var assert = require('assert');
 
 logback = function logback(data, route, type) {
   // body...
-  if (type !== 'GET' || 'get' || 'POST' || 'post' || 'PUT' || 'put' || 'DELETE' || 'delete') {
+  if (type !== 'GET' && type !== 'get' && type !== 'POST' && type !== 'post' && type !== 'PUT' && type !== 'put' && type !== 'DELETE' && type !== 'delete') {
     assert.fail('invalid', null, 'Invalid method - values are GET, POST, PUT or DELETE')
     process.exit(1)
   }
   if (type === 'POST' || 'post') {
     var options = {
-      scriptPath: 'src/post.py',
       args: [route, data]
     };
 
