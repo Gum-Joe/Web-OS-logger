@@ -1,0 +1,25 @@
+{
+  "name": "web-os-logger",
+  "version": "1.0.0",
+  "description": "Recives data and logs it back to Web-OS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gum-Joe/Web-OS-logger.git"
+  },
+  "keywords": [
+    "web",
+    "os",
+    "logger",
+    "container"
+  ],
+  "author": "Gum-Joe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gum-Joe/Web-OS-logger/issues"
+  },
+  "homepage": "https://github.com/Gum-Joe/Web-OS-logger#readme"
+}
