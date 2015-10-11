@@ -1,2 +1,2 @@
-# Web-OS-logger
+# Web-OS-logger [![Build Status](https://travis-ci.org/Gum-Joe/Web-OS-logger.svg?branch=master)](https://travis-ci.org/Gum-Joe/Web-OS-logger) [![Code Climate](https://codeclimate.com/github/Gum-Joe/Web-OS-logger/badges/gpa.svg)](https://codeclimate.com/github/Gum-Joe/Web-OS-logger) [![Coverage Status](https://coveralls.io/repos/Gum-Joe/Web-OS-logger/badge.svg?branch=master&service=github)](https://coveralls.io/github/Gum-Joe/Web-OS-logger?branch=master)
 Receives input and sends it back to Web-OS
