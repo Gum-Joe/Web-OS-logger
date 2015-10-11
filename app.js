@@ -1,7 +1,7 @@
 var PythonShell = require('python-shell');
 var assert = require('assert');
 
-logback = function logback(data, route, type) {
+exports.logback = function logback(data, route, type) {
   // body...
   if (type !== 'GET' && type !== 'get' && type !== 'POST' && type !== 'post' && type !== 'PUT' && type !== 'put' && type !== 'DELETE' && type !== 'delete') {
     assert.fail('invalid', null, 'Invalid method - values are GET, POST, PUT or DELETE')
@@ -20,4 +20,4 @@ logback = function logback(data, route, type) {
   }
 }
 
-logback({name: 'h'}, 'http://localhost:8080/api/container', 'POST')
+//logback({lang: 'h'}, 'http://localhost:8080/oobe/set-lang', 'POST')
