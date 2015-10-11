@@ -9,10 +9,10 @@ logback = function logback(data, route, type) {
   }
   if (type === 'POST' || 'post') {
     var options = {
-      args: [route, data]
+      args: [type, route, data]
     };
 
-    PythonShell.run('src/post.py', options, function (err, results) {
+    PythonShell.run('app.py', options, function (err, results) {
       if (err) throw err;
       // results is an array consisting of messages collected during execution
       console.log('results: %j', results);
@@ -20,4 +20,4 @@ logback = function logback(data, route, type) {
   }
 }
 
-logback({name: 'h'}, 'http://localhost:8080/api/data', 'POST')
+logback({name: 'h'}, 'http://localhost:8080/api/container', 'POST')
