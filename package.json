@@ -1,14 +1,14 @@
 {
-  "name": "web-os-logger",
+  "name": "boss-logger",
   "version": "1.0.0",
-  "description": "Recives data and logs it back to Web-OS",
+  "description": "Recives data and logs it back to Boss",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gum-Joe/Web-OS-logger.git"
+    "url": "git+https://github.com/Gum-Joe/boss-logger.git"
   },
   "keywords": [
     "web",
@@ -19,9 +19,9 @@
   "author": "Gum-Joe",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Gum-Joe/Web-OS-logger/issues"
+    "url": "https://github.com/Gum-Joe/boss-logger/issues"
   },
-  "homepage": "https://github.com/Gum-Joe/Web-OS-logger#readme",
+  "homepage": "https://github.com/Gum-Joe/boss-logger#readme",
   "dependencies": {
     "python-shell": "^0.2.0"
   }
