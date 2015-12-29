@@ -1,14 +1,14 @@
 {
-  "name": "boss-logger",
+  "name": "jakhu-logger",
   "version": "1.0.0",
-  "description": "Recives data and logs it back to Boss",
+  "description": "Recives data and logs it back to jakhu",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gum-Joe/boss-logger.git"
+    "url": "git+https://github.com/Gum-Joe/jakhu-logger.git"
   },
   "keywords": [
     "web",
@@ -19,9 +19,9 @@
   "author": "Gum-Joe",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Gum-Joe/boss-logger/issues"
+    "url": "https://github.com/Gum-Joe/jakhu-logger/issues"
   },
-  "homepage": "https://github.com/Gum-Joe/boss-logger#readme",
+  "homepage": "https://github.com/Gum-Joe/jakhu-logger#readme",
   "dependencies": {
     "python-shell": "^0.2.0"
   }
